@@ -1,0 +1,54 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+  position: relative;
+}
+.Esc {
+  position: absolute;
+  left: 1rem;
+  top: 3rem;
+  color: white;
+}
+.heading {
+  font-size: 65px;
+ background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  line-height: 1.5; 
+}
+
+.App-section {
+  background-color: rgb(35,35,35);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  color: white;
+}
+.Character {
+  white-space: pre;
+  font-size: xx-large;
+  background-color: rgb(85, 85, 85);
+  width: 80%;
+  overflow-x: hidden;
+  border-radius: 0.5rem;
+}
+
+.Character-current {
+  background-color: #46c06a;
+}
+
+.Character-out {
+  color: silver;
+}
+
+.results{
+  font-size: x-large;
+}
